@@ -12,9 +12,15 @@ Installing Symfony2
 -------------------
 
 First, check that the PHP version installed on your computer meets the Symfony2
-requirements: 5.3.3 or higher. Then, open a console and execute the following
-command to install the latest version of Symfony2 in the ``myproject/``
-directory:
+requirements: 5.3.3 or higher. This is achieved by creating a php script inserting
+the following:
+
+.. code-block:: bash 
+
+    <?php phpinfo(); ?>
+
+Then, open a console and execute the following command to install the latest 
+version of Symfony2 in the ``myproject/`` directory:
 
 .. code-block:: bash
 
